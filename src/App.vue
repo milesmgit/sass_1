@@ -1,6 +1,15 @@
+<!-- format for creating comments in HTML -->
+
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <!-- pulling in components and assigning props values -->
+  <HelloWorld
+    msg="Welcome to Your Vue.js App"
+    lesson="Look at me learn this stuff!"
+    bool="true"
+    value="23"
+    ,
+  />
 </template>
 
 <script>
@@ -9,8 +18,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 };
 </script>
 

@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2>{{ lesson }}</h2>
+    <h3>{{ bool }}</h3>
+    <h4>{{ value }}</h4>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -91,6 +94,9 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String,
+    lesson: String,
+    bool: Boolean,
+    value: Number,
   },
 };
 </script>
@@ -98,7 +104,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <!--sass variables -->
 <style scoped lang="scss">
-$textColor: red;
+$textColor: blue;
 h3 {
   margin: 40px 0 0;
   color: $textColor;
