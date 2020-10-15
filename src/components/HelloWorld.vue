@@ -1,3 +1,6 @@
+<!-- displaying the props in the html passed to the parent component; the values are given to the parent 
+     component as props, as this component is placed in the parent component's template.  -->
+
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
